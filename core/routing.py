@@ -1,3 +1,4 @@
+from .wsgi import *
 from django.urls import path
 
 from chat.consumer import ChatConsumer
